@@ -64,4 +64,5 @@ WHERE category = 'Furnishings';
 --Which items cost more than $100 and have a rating above 4.5?
 SELECT *
 FROM superstore
-WHERE price > 100 AND average_rating > 4.5;
+WHERE price > 100 
+AND average_rating > 4.5;
